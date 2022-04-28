@@ -1,0 +1,9 @@
+name: Werewolf
+description: Play Werewolf in a Discord Vocal Channel
+private: false
+license:
+  id: mit
+  name: MIT License
+author: Galitan-dev
+template: ts
+path: /Users/ethan/Documents/Development.nosync/Werewolf
