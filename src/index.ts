@@ -1,3 +1,4 @@
 import { log } from 'console';
+import message from './message';
 
-log('Hello world!');
+log(message);
