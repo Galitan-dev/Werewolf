@@ -76,7 +76,6 @@ export default class GameStartCommand extends WerewolfCommand {
             time: 15000,
         }).on('collect', async (i) => {
             answered = true;
-            this.master.games.delete(owner.game.id);
             confirmed(<ButtonInteraction>i)
         }).on('end', async () => {
             if (answered) return;
